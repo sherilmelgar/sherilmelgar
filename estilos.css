@@ -1,0 +1,173 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ede8f1;
+}
+
+/* Encabezado */
+header {
+    background: #6409cc;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sección principal */
+.hero {
+    background: url("img/imagen1.jpg") no-repeat center center/cover;
+    color: rgb(32, 34, 34);
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h2 {
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #ca2b53;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #079992;
+}
+
+/* Servicios */
+.servicios {
+    background:url("img/alquiler\ de\ salones.jpg") ;
+    padding: 50px 20px;
+    text-align: center;
+    background: #f1f1f1;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+.card h3 {
+    color: #0a3d62;
+}
+
+/* Nosotros */
+.nosotros {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+
+
+/* Contacto */
+.contacto {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+
+/* Pie de página */
+footer {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease; /* <-- importante */
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Sección de reservas */
+.reservas {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.lista-reservas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.lista-reservas .card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.reservas {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.lista-reservas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.lista-reservas .card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
